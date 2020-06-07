@@ -1,17 +1,5 @@
-######################
-#       mobile       #
-######################
-/mobile/node_modules/
+node_modules
+uploads/*
+!uploads/.gitkeep
 
-######################
-#       server       #
-######################
-/server/node_modules
-
-######################
-#         web        #
-######################
-
-# dependencies
-/web/node_modules
-
+*.sqlite
